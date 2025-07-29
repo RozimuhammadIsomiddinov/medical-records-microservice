@@ -1,7 +1,7 @@
 import 'reflect-metadata';
 import { DataSource } from 'typeorm';
 import * as dotenv from 'dotenv';
-import { Patient } from './src/patient/entity/patient.entity';
+import { Patient } from './src/patient/patient.entity';
 dotenv.config();
 
 const { DB_USERNAME, DB_PASSWORD, DB_HOST, DB_NAME } = process.env;
